@@ -11,31 +11,24 @@
 !README*
 !readme*
 
-# Allow STAT 151A lecture note PDFs in Notes folder
+# Allow STAT 200A lecture note PDFs in Notes folder
 !Notes/
-Notes/*
 !Notes/*.pdf
-Notes/*.pdf
-!Notes/STAT 151A Lecture *.pdf
-!Notes/STAT 151A *.pdf
-!Notes/STAT 151A Review Session.pdf
 
-# Explicitly ignore other file types in Notes folder
-Notes/*.tex
-Notes/*.bbl
-Notes/*.synctex.gz
-Notes/*.unq
-Notes/*.sty
+# Allow STAT 200A lab PDFs in Labs folder
+!Labs/
+!Labs/*.pdf
 
-# Ignore other files in root directory
+# Ignore temporary and build files
 *.tex
 *.bbl
+*.bbl-*
 *.synctex.gz
 *.unq
 *.sty
-*.pdf
-!Notes/*.pdf
 
-# Ignore Lab folder contents
-Lab/
-.Rproj.user
+# Ignore R project artifacts
+.Rproj.user/
+.Rhistory
+.RData
+
