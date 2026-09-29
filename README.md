@@ -1,4 +1,4 @@
-# UC Berkeley [CLASS ###] TERM Notes
+# UCLA STATS 200A Fall 2026 Notes
 ### Henry Liev
 
-Lecture notes from UC Berkeley's [CLASS ###] in the [TERM] taught by [PROFESSOR]
+Lecture notes from UCLA's STATS 200A in Fall 2026 taught by Arash Amini
